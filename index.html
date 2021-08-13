@@ -4,13 +4,41 @@
     <title>Eindopdracht</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
+    <script type="module" src="./js/index.js"></script>
   </head>
   <body>
+    <header>
+      <h1>
+        QR Code Generator
+      </h1>
+    </header>
+    
     <main>
-      <div id="container">
-        
+
+      
+      <div class="center">
+        <div class="form">
+          <div class="form-element">
+            <label for="data-ip">URL</label>
+            <input type="text" id="data-ip">
+          </div>
+          <div class="form-element">
+            <button>Generate QR Code</button>
+          </div>
+
+          <div class="caution">
+            * Just writing text will redirect you to <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a> 
+
+          </div>
+        </div>
+        <div class="qr-img">
+          <img src="">
+        </div>
       </div>
+
+      
+  
     </main>
-    <script type="module" src="./js/index.js"></script>
+    
   </body>
 </html>
